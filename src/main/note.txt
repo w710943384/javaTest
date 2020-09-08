@@ -1,0 +1,7 @@
+2020年9月8日 21:04:49
+git
+1.初始化:git init
+2.git add
+3.git commit message
+4.git push
+5.git pull
