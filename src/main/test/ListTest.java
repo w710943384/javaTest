@@ -21,7 +21,7 @@ public class ListTest {
      * @date : 2019/7/16 15:45
      */
     public static void main(String[] args) {
-        Student student = new Student(1, "wo");
+        Student student = new Student();
         List<Student> list = new ArrayList<>(2);
         list.add(student);
         System.out.println(list.get(0).toString());
