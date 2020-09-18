@@ -21,6 +21,7 @@ public class DateTest {
         SimpleDateFormat hourFormat = new SimpleDateFormat("HH:mm:ss");
         hourFormat.setTimeZone(TimeZone.getTimeZone("GMT+00:00"));
         Date start = dateFormat.parse("2019-6-10 23:20:00");
+        System.out.println(start);
         Date end = dateFormat.parse("2019-06-11 1:00:00");
         Long time = end.getTime() - start.getTime();
         String timeStr = hourFormat.format(time);
