@@ -10,7 +10,7 @@ public class PhoneReturn {
         two.message();
     }
 
-    public static Phone getPhone(){
+    public static Phone getPhone() {
         Phone one = new Phone();
         one.brand = "三星";
         one.price = 6666;

@@ -26,9 +26,9 @@ public class ArrayTest {
 
         String[] arrayC = new String[5];
 
-        int[] arrayD = new int[]{1,2,3,4,5};
+        int[] arrayD = new int[]{1, 2, 3, 4, 5};
 
-        String[] arrayE = new String[]{"hello","world","java"};
+        String[] arrayE = new String[]{"hello", "world", "java"};
 
         for (int i = 0; i < 5; i++) {
             System.out.println(arrayD[i]);

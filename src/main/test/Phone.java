@@ -19,11 +19,11 @@ public class Phone {
     double price;
     String color;
 
-    public void call(String who){
+    public void call(String who) {
         System.out.println("给" + who + "打电话");
     }
 
-    public  void message(){
+    public void message() {
         System.out.println("群发短信");
     }
 }
