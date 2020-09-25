@@ -7,7 +7,7 @@ public class ArrayMax {
         int max = array[0];
         for (int i : array) {
             // 如果当前元素比max更大，则换人
-            if (i > max){
+            if (i > max) {
                 max = i;
             }
         }
@@ -23,7 +23,7 @@ public class ArrayMax {
 
         System.out.println(" ");
 
-        for (int min = 0,maX = arrayB.length - 1;min < maX;min ++, maX --){
+        for (int min = 0, maX = arrayB.length - 1; min < maX; min++, maX--) {
             int temp = arrayB[min];
             arrayB[min] = arrayB[maX];
             arrayB[maX] = temp;

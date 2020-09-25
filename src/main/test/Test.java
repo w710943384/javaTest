@@ -18,5 +18,6 @@ public class Test {
             e.printStackTrace();
         }
         System.out.println(simpleDateFormat.format(date));
+
     }
 }
